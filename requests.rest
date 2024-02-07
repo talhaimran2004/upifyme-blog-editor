@@ -1,0 +1,41 @@
+#Access Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OWMxYTE1MjcyZjI0ZWNiNWMyZjdiNSIsImlhdCI6MTcwNDcyOTEwOX0.LbrBq15crzce04RLiexwXfc_3medbJHbFAojKhoS8vc
+#GET http://localhost:3000/latest-blogs
+
+# POST http://localhost:3000/create-blog
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OWMxYTE1MjcyZjI0ZWNiNWMyZjdiNSIsImlhdCI6MTcwNDcyOTEwOX0.LbrBq15crzce04RLiexwXfc_3medbJHbFAojKhoS8vc
+
+# {
+#   "title": "Mediums Blog Post Task For Student hello students",
+#   "banner": "http://Screenshot_1.png",
+#   "des": "It animes by accident, sometimes on purpose (injected humour and the like).",
+#   "content": {
+#     "block": [ "1", "2"]
+#   },
+#   "tags": [ "Medium Tag", "Medium" ]
+# }
+# POST http://localhost:3000/get-blog
+# Content-Type: application/json
+
+# {
+#  "blog_id" : "My-Test-Bog-For-Upify-OSj8CvWBY6zta8zIhsrtX"
+# }
+
+# POST http://localhost:3000/get-profile
+# Content-Type: application/json
+
+# {
+#  "username" : "Kunaal"
+# }
+
+# POST http://localhost:3000/submit-form
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OWMxYTE1MjcyZjI0ZWNiNWMyZjdiNSIsImlhdCI6MTcwNDcyOTEwOX0.LbrBq15crzce04RLiexwXfc_3medbJHbFAojKhoS8vc
+
+# {
+#  "firstName" : "Arhum",
+#  "phone" : "033223665829",
+#  "email" :"arhumwahed01@gmail.com",
+#  "message" : "hello borther"
+# }
+# GET http://localhost:3000/get-upload-url
